@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.content {
+  background-image: url("../img/angel-5705040_1920.jpg");
+  @include parallax;
+  color: $primary;
+  font-family: $text;
+  @include center-column;
+  flex: 1 0 auto;
+}
+
+h1,
+h3 {
+  font-family: $title;
+}
+.first-content,
+.second-content,
+.third-content {
+  @include center-column;
+}
+
+.curiosity {
+  height: auto;
+  background-color: white;
+  padding: 0px !important;
+}
+footer {
+  color: black;
+  p {
+    margin-left: 5px;
+  }
+  a {
+    margin-right: 5px;
+  }
+}

@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Sevillana&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.content {
+  background-image: url("../img/angel-5705040_1920.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff !important;
+  font-family: "Inter", sans-serif !important;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1 0 auto;
+}
+
+h1,
+h3 {
+  font-family: "Sevillana", cursive;
+}
+
+.first-content,
+.second-content,
+.third-content {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.curiosity {
+  height: auto;
+  background-color: white;
+  padding: 0px !important;
+}
+
+footer {
+  color: black;
+}
+footer p {
+  margin-left: 5px;
+}
+footer a {
+  margin-right: 5px;
+}/*# sourceMappingURL=style.css.map */
