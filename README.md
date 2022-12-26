@@ -6,4 +6,4 @@ Tecnologias usadas:
   HTML|CSS|SASS|BOOTSTRAP
   
 SASS:
-  Foi utilizado os mixin e variáveis
+  Foi utilizado os mixins e variáveis.
